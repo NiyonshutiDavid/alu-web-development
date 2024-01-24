@@ -1,0 +1,372 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("Photos/Background_1.png");
+}
+.flex-header {
+    flex: 2;
+}
+.flex-main_parts {
+    flex: 10;
+}
+.footer-section {
+    flex: 3;
+    background-color: #071629;
+    margin: -40px -45.5% 30px -17%;
+    padding: 30px 0 110px 150px;
+}
+.flex-divisions {
+    display: flex;
+    flex-direction: row;
+}
+.link-header-part {
+    position: absolute;
+    right: 15%;
+    top: 28px;
+}
+.header_link {
+    /*background-color: green;*/
+    color: white;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin: 0px 20px;
+}
+.number-one {
+    margin-top: 10.3% /*78px*/;
+}
+
+.get-schooled {
+    padding-right: 26px;
+    text-align: center;
+    color: white;
+    font-size: 107px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.feeling {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 38px;
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word
+}
+.smile {
+    /*background-color: red;*/
+    margin: 0 27px;
+}
+.grin {
+    /*background-color: blue;*/
+    margin: 0 27px;
+}
+.laugh {
+    /*background-color: black;*/
+    margin: 0 27px;
+}
+.register-button {
+    background: #C271FF;
+    height: 44px;
+    width: 15%;
+    border-radius: 22px;
+    position: relative;
+    left: 42%;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.second-div {
+    margin-top: 3.0%;
+}
+.learning {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.learn {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.all-pros {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px; 
+}
+.list-pros {
+    margin-top: 87px;
+}
+.pros-image, .author-image{
+    border-radius: 50%;
+}
+.pros-names {
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    line-height: 27px;
+    word-wrap: break-word
+}
+.pros-texts {
+    color: white;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.space {
+    margin: -1% 45px 0px;
+}
+
+.number-two {
+    margin: 12.85% -45.35% 0 -17%;
+    background-color:#C271FF;
+    padding: 10% 18% 7%;
+}
+.number-two div, .number-two div div {
+    display: flex;
+}
+.number-two div {
+    flex-direction: row;
+}
+.number-two div div {
+    flex-direction: column;
+}
+.number-two .name {
+    margin: 40px 0 15px;
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.number-two .title {
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.number-two blockquote {
+    color: white;
+    font-size: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.number-two img {
+    margin-top: -20px;
+    margin-right: 30px;
+}
+
+
+.number-three    {
+    background-color: #FFFFFF;
+    margin: -6% -45.35% 0 -17%;
+}
+.tutorial {
+    text-align: center;
+    color: #071629;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.popular {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.testmony {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 10px 70px 150px;
+    position: relative;
+}
+.video {
+    color: #071629;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.video-text {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+.testmony .auhtor-discription {
+    display: flex;
+    flex-direction: row;
+}
+.testmony .auhtor-discription img {
+    margin: 15px 5px 15px 0;
+    border-radius: 50%;
+}
+.testmony .auhtor-discription h3 {
+    margin-top: 15px;
+}
+.testmony .tutorial-rating {
+    display: flex;
+    flex-direction: row;
+}
+.testmony .tutorial-rating p {
+    margin: -4px 0 0 90px;
+    color: #C271FF;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.phillip {
+    color: #C271FF;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.number-four {
+    background-color: #071629;
+    margin: -3px -45.5% 20px -17%;
+    padding: 30px 0 150px 100px;
+}
+.membership {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+}
+.free {
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.membership-block {
+    display: flex;
+    flex-direction: row;
+}
+.number-four button {
+    position: relative;
+    left: 43%;
+    top: 80px;
+    background: #C271FF;
+    border-radius: 22px;
+    height: 44px;
+    width: 162px;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    word-wrap: break-word
+}
+.membership-block .member {
+    margin: 0 90px 0;
+}
+.number-four h2 {
+    color: white;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+.number-four p {
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+
+.last-section {
+    background-color: #fff;
+    margin: -40px -45.5% 30px -17%;
+    padding: 30px 0 40px 150px;
+}
+.last-flex {
+    display: flex;
+}
+.last-section-out-div {
+    flex-direction: column;
+    padding: 0 0 0 60px;
+}
+.last-section-in-div {
+    flex-direction: row;
+}
+.answers {
+    text-align: center;
+    color: #071629;
+    font-size: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+.last-section-in-div h2 {
+    color: #071629;
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.last-section-in-div p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.left-block {
+    margin-left: 40px;
+}
+.right-block {
+    margin-left: 240px;
+}
+
+/*last part of the webpage footer*/
+.footer-block {
+    display: flex;
+    flex-direction: row;
+}
+.footer-block div {
+    position: relative;
+    right: -70%;
+}
+.twitter {
+    border-radius: 50%;
+}
+footer p {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
